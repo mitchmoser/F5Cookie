@@ -4,7 +4,6 @@ F5 BIG-IP load balancers can be configured to encode the IP address of the actua
 
 This script also can ingest a cookie as a string and return the decoded IP and port or encode a given IP address into cookie format.
 
-
 ## Usage Examples
 ```
 ./F5cookie.py -u https://example.com
@@ -22,3 +21,8 @@ PORT:   16024
 ./F5cookie.py -ip 10.73.128.30
 511723786
 ```
+
+## Additional Information
+https://support.f5.com/csp/article/K6917
+
+https://support.f5.com/csp/article/K7784?sr=14607726
