@@ -1,4 +1,4 @@
-# F5Cookie
+# F5Cookie Decoder
 
 F5 BIG-IP load balancers can be configured to encode the IP address of the actual web server that it is acting on behalf of within a cookie. This script can be used to quickly check if a host provides the client with such a cookie and will decode it to disclose the internal host and port the client is communicating with.
 
